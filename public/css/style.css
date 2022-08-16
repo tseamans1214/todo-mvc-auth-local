@@ -92,8 +92,29 @@ li {
     font-size: 3em;
     text-decoration: dotted;
     text-decoration-color: white;
+    margin-top: 12px;
+    cursor: pointer;
 }
 
 span {
     color: white;
+}
+
+.del {
+    color: red;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    transition-property: background;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+}
+
+.del:hover {
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    font-weight: 800;
 }
